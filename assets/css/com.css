@@ -1,0 +1,324 @@
+@media (max-width: 768px) {
+  .video-player {
+    width: 100%;
+    background: 0 0;
+  }
+  .video-player iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+  #frame {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin: auto;
+  }
+}
+
+* {
+  font-family: helvetica, arial, sans-serif;
+}
+
+body {
+  font-size: 16px;
+
+}
+
+.bbtn {
+  width: 100%;
+  max-width: 449px;
+}
+
+@media (max-width: 768px) {
+  .video-player {
+    margin-top: 0 !important;
+  }
+}
+
+.a-btn {
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: #2e82bc;
+    outline: 0;
+    line-height: 1;
+    text-align: center;
+    position: relative !important;
+    display: inline-block !important;
+    border-style: solid;
+    width: 100%; /* Largura definida como 80% */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 10px;
+    padding: 11px 22px;
+    border-color: #009F66;
+    border-width: 0px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #009F66 0%, #009F66 100%);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    text-decoration: none !important;
+}
+
+
+    .span-btn {
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      margin: 0; 
+      border: 0; 
+      font: inherit;
+      vertical-align: baseline;
+      display: block; 
+      position: relative; 
+      z-index: 1; 
+      padding: 0 15px; 
+      white-space: normal; 
+      font-size: 25px;
+      color: #ffffff; 
+      font-family: Oswald; 
+      font-weight: bold; 
+      text-shadow: #000000 0px 1px 0px;
+      text-decoration: none;
+    }
+    .span-btn2 {
+      -webkit-font-smoothing: antialiased; 
+      text-align: center;
+      padding: 0; border: 0;
+      font: inherit; 
+      vertical-align: baseline; 
+      display: block; 
+      position: relative;
+      z-index: 1; 
+      margin: .2em 0 -.5em; 
+      font-size: 15px; 
+      color: #f5e051; 
+      font-family: Cabin; 
+      font-weight: bold; 
+      font-style: italic;
+      text-shadow: #000000 0px 1px 0px;
+    }
+
+    #minhaDiv {
+      max-width: 100%;
+      margin: 0 auto; /* centraliza a div */
+      
+  }
+
+  #minhaDiv img {
+      width: 100%;
+      height: auto;
+      display: block; /* remove espaços em branco extras abaixo da imagem */
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+      padding: 10px;
+      margin-bottom: 20px;
+  }
+
+  /* Estilos específicos para dispositivos móveis */
+  @media (max-width: 600px) {
+      #minhaDiv {
+          padding: 10px; /* adicione algum espaço extra para dispositivos móveis, se necessário */}
+      }
+
+    #verde {
+        background-color: #009F66;
+        color: rgb(255, 255, 255);
+        padding: 15px;
+        height: auto;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        text-decoration: none;
+        -webkit-font-smoothing: antialiased;
+        margin: 0;
+        border: 0; 
+        font: inherit; 
+        vertical-align: baseline;
+        outline: 0; 
+        line-height: 1.5; 
+        text-align: center; 
+        position:relative!important; display: inline-block!important;
+        border-style: solid; 
+        width: 100%; padding-left: 0!important; padding-right: 0!important; 
+        border-radius: 3px; 
+        background: linear-gradient(to bottom, #009F66 0%, #009F66 100%); 
+        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.5); 
+        text-decoration: none!important;
+
+    }
+    
+    button {
+      background-color: #004D31; /* Verde escuro */
+      color: #fff; /* Texto branco para contrastar */
+      padding: 10px 20px; /* Adicionando algum preenchimento */
+      font-size: 16px; /* Tamanho da fonte */
+      border: none; /* Removendo a borda padrão */
+      text-decoration: none; /* Removendo sublinhado padrão */
+      cursor: pointer; /* Mudando o cursor para indicar que é clicável */
+  }
+
+    /* Estilos específicos para dispositivos móveis */
+    @media (max-width:600px) {
+      #final {
+          padding: 10px; /* adicione algum espaço extra para dispositivos móveis, se necessário */}
+      }
+
+      #mockup {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    /* Adapte o tamanho da imagem para dispositivos móveis usando media queries */
+    @media (max-width: 600px) {
+        #mockup img {
+            width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+        }
+        #mockup {
+            padding: 5px;
+        }
+    }
+
+    #cta3 {
+      background-color: #009F66;
+      color: rgb(255, 255, 255);
+      padding: 15px;
+      height: auto;
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      -webkit-font-smoothing: antialiased;
+      margin: 0;
+      border: 0; 
+      font: inherit; 
+      vertical-align: baseline;
+      outline: 0; 
+      line-height: 1.5; 
+      text-align: center; 
+      position:relative!important; display: inline-block!important;
+      border-style: solid; 
+      width: 100%; padding-left: 0!important; padding-right: 0!important; 
+      border-radius: 3px; 
+      background: linear-gradient(to bottom, #dc3545 0%, #dc3545 100%); 
+      box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3); 
+      text-decoration: none!important;
+
+    }
+
+    #Cont01 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; /* Espaço entre os elementos */
+      
+  }
+  
+  .box1  {
+      flex: 1;
+      margin: 10px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      background-color: #009F66; /* Cor de fundo verde */
+      color: rgb(255, 255, 255); /* Cor do texto branca */
+      padding: 20px; /* Preenchimento interno de 20 pixels */
+      height: auto; /* Altura automática com base no conteúdo */
+      width: 100%; /* Largura de 100% do contêiner pai */
+      display: block; /* Exibição como bloco */
+      margin-bottom: 20px; /* Margem inferior de 20 pixels */
+      text-decoration: none; /* Nenhum sublinhado no texto */
+      -webkit-font-smoothing: antialiased; /* Suavização de fonte no WebKit */
+      margin: 0; /* Margem zero */
+      border: 30; /* Sem borda */
+      font: inherit; /* Herda a fonte do elemento pai */
+      vertical-align: baseline; /* Alinhamento vertical à linha de base */
+      outline: 0; /* Nenhum contorno */
+      line-height: 1.2; /* Altura da linha de 1.5 */
+      text-align: center; /* Alinhamento central do texto */
+      position: relative !important; /* Posição relativa com importância */
+      display: inline-block !important; /* Exibição como bloco em linha com importância */
+      border-style: solid; /* Estilo de borda sólida */
+      width: 100%; /* Largura de 100% do contêiner pai */
+      padding-left: 0 !important; /* Preenchimento esquerdo zero com importância */
+      padding-right: 0 !important; /* Preenchimento direito zero com importância */
+      border-radius: 30px; /* Raio de borda de 30 pixels */
+      background: linear-gradient(to bottom, #009F66 0%, #009F66 100%); /* Gradiente linear de verde */
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.7); /* Sombra da caixa */
+      text-decoration: none !important; /* Nenhum sublinhado no texto com importância */
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+ /* Estilo para o Contêiner do Cronômetro */
+
+.cronometro {
+  height: 100vh; /* Altura igual à altura da viewport (100% da altura da tela) */
+  display: flex; /* Utiliza o modelo flexível para organizar os itens filhos */
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estilo para o Contêiner do Relógio */
+.relogio {
+  display: flex; /* Utiliza o modelo flexível para organizar os itens filhos */
+  align-items: ; /* Centraliza os itens verticalmente */
+  justify-content: space-around; /* Distribui o espaço ao redor dos itens, criando espaçamento */
+  height: 100px; /* Altura fixa do contêiner do relógio */
+  width: 275; /* Largura fixa do contêiner do relógio */
+  background: transparent; /* Fundo transparente */
+  border-radius: 3px; /* Bordas arredondadas */
+}
+
+/* Estilo para as Divisões Internas do Relógio */
+.relogio div {
+  height: 110px; /* Altura fixa da divisão interna */
+  width: 125px; /* Largura fixa da divisão interna */
+  display: flex; /* Utiliza o modelo flexível para organizar os itens filhos */
+  flex-direction: column; /* Organiza os itens em coluna (um abaixo do outro) */
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  color: #fff; /* Cor do texto branca */
+  background: rgba(247, 3, 3, 0.9); /* Fundo escuro com transparência */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .7); /* Sombra para efeito de elevação */
+  border-radius: 7px; /* Bordas arredondadas */
+  letter-spacing: 5px; /* Espaçamento entre letras */
+}
+
+/* Estilo para os Elementos de Texto dentro do Relógio */
+.relogio span {
+  font-weight: bolder; /* Texto em negrito */
+  font-size: 60px; /* Tamanho da fonte */
+}
+
+/* Estilo para os Elementos de Texto Específicos do Relógio (Minutos e Segundos) */
+.relogio span.tempo {
+  font-size: 10px; /* Tamanho da fonte menor para minutos e segundos */
+}
+
+#produto {
+  max-width: 100%;
+  margin: 0 auto; /* centraliza a div */
+  
+}
+
+#produto img {
+  width: 100%;
+  height: auto;
+  display: block; /* remove espaços em branco extras abaixo da imagem */
+  padding: 10px;
+  margin-bottom: 20px;
+}
